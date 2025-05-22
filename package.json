@@ -1,9 +1,13 @@
 {
-    "name"         : "node-red-render",
-    "version"      : "0.0.1",
-    "description": "Node-RED instance for Render",   
-    "main": "index.js",
-    "scripts": {
-      "start": "node node_modules/node-red/red.js -v"
-    }
+  "name": "node-red-app",
+  "version": "1.0.0",
+  "description": "Node-RED deployment on Render",
+  "main": "red.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.3.0"
+  }
 }
