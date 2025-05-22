@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Node-RED instance for Render",
   "main": "index.js",
-  "scripts": {
-    "start": "node red.js"
-  }
+"scripts": {
+  "start": "node node_modules/node-red/red.js -v"
+}
 }
 
