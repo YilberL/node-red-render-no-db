@@ -4,6 +4,6 @@
     "description": "Node-RED instance for Render",   
     "main": "index.js",
     "scripts": {
-        "start": "node red.js"
+      "start": "node node_modules/node-red/red.js -v"
     }
 }
