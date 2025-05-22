@@ -1,6 +1,11 @@
 {
     "name"         : "node-red-render",
     "version"      : "0.0.1",
+    "description": "Node-RED instance for Render",
+    "main": "index.js",
+    "scripts": {
+        "start": "node red.js"
+    };
     "dependencies": {
         "when": "~3.x",
         "pg": "^8.3.0",
